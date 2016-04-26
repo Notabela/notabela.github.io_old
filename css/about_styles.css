@@ -107,10 +107,10 @@ section a:visited {
 
 #photo {
     padding-top: 1em;
-    padding-right: 2em;
+    padding-right: 2%;
     width: 20%;
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     text-align: right;
 }
 
