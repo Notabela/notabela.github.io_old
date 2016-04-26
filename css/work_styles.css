@@ -77,9 +77,31 @@ nav ul li a.active {
 }
 
 /* SECTION STYLES */
-figure img {
+
+section {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
   width: 30%;
-  height: 30%;
+  text-align: center;
+  float: left;
+}
+
+#software_projects{
+  margin-left: 5%;
+}
+
+#engineering_projects {
+  margin-right: 5%;
+}
+
+
+figure img {
+  width: 70%;
+  height: 90%;
 }
 
 figure img:hover{
