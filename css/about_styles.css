@@ -1,17 +1,21 @@
-/*
-    CSS styling for Contact_Page
-*/
-
 nav, header, section, footer {
     display: block;
 }
 
+
 /* BODY STYLES */
 body {
+    background-color: #fff;
+    background-image: none;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: auto !important;
     margin-top: 0px;
     border-top-width: 10px;
     border-top-style: solid;
-    border-top-color: #41836C;
+    border-top-color: #AC7D2E;
 }
 
 body * {
@@ -42,8 +46,13 @@ header h2 {
     padding-top: 1%;
 }
 
+section img {
+    border-radius: 100%;
+}
+
+
 /* NAVIGATION STYLES */
-nav ul {
+nav ul{
     display: table;
     margin: 2% auto;
     font-size: 120%;
@@ -76,102 +85,58 @@ nav ul li a.active {
     color: black;
 }
 
+/* SECTION STYLES */
+
 section {
-    width: 80%;
-    margin-left: 10%;
-}
-
-section h2 {
-    padding-left: 1%;
-    font-size: 2.5em;
-}
-
-label {
-    font-size: 1.3em;
-}
-
-form fieldset{
-    border: 0;
-}
-
-input[type="submit"] {
-    color: white;
-    background-color: #272727;
-    border: 0 none;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 5px;
-    width:7em;
-    height: 3em;
-    display: inline;
-}
-
-input[type="submit"]:hover {
-    background-color: #707070;
-}
-
-textarea, input[type="text"], input[type="email"] {
-    padding: 10px;
-    border: solid 1px #dcdcdc;
-    background-color: #fafafa;
-    border-radius: 2px;
-    transition: box-shadow 0.3s, border 0.3s;
     width: 100%;
+    margin-top: 5%;
 }
 
-textarea:focus, input[type="text"]:focus, input[type="email"]:focus {
-    border: solid 1px background-color: #707070;;
-    box-shadow: 0 0 5px 1px #969696;
+section a {
+    text-decoration: none;
+    color: #AC7D2E;
 }
 
-textarea:valid, input[type="text"]:valid, input[type="email"]:valid {
-    border: solid 1px background-color: #28921f;;
-    box-shadow: 0 0 5px 1px #5cd053;
+section a:hover  {
+    color: #787878;
 }
 
-.submit {
+section a:visited {
+    text-decoration: none;
+}
+
+#photo {
+    padding-top: 1em;
+    width: 20%;
+    float: left;
+    margin-left: 10%;
     text-align: right;
 }
 
-textarea {
-    overflow: auto;
-    vertical-align: top;
-    min-height: 10em;
-    resize: vertical;
-    cursor: auto;
-    flex-direction: column;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: start;
-    display: inline-block;
-    -webkit-user-select: text;
-    -webkit-rtl-ordering: logical;
-    -webkit-appearance: textarea;
-    -webkit-writing-mode: horizontal-tb !important;
+#photo img {
+    width: 8em;
+    height: 8em;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+#description {
+    font-family: 'Open Sans';
+    font-size: 80%;
+    text-align left;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    float: left;
+    width: 60%;
+}
+
+#resume
+{
+    width: 100%;
+    text-align: center;
+}
 
 /* SPACER STYLES */
-.or-spacer-top {
-    margin: 3% auto;
-    width:80%;
-    margin-bottom: 0px;
-    position:relative;
-}
-.or-spacer-top .mask {
-    overflow:hidden;
-    height:20px;
-}
-.or-spacer-top .mask:after {
-    content:'';
-    display:block;
-    margin:-25px auto 0;
-    width:100%;
-    height:25px;
-    border-radius:125px / 12px;
-    box-shadow:0 0 8px black;
-}
-
 .or-spacer-bottom {
     margin: 3% auto;
     width:80%;
@@ -197,7 +162,6 @@ textarea {
 footer {
     width: 100%;
 }
-
 footer ul{
     display: table;
     margin: 0 auto;
@@ -210,7 +174,6 @@ footer li {
 
 footer a {
     text-align: center;
-    padding-right: 2px;
 }
 
 footer img {
@@ -226,7 +189,7 @@ footer img:hover {
 
 footer p {
     margin-top: 0.2%;
-    font-size: 100%;
+    font-size: 120%;
     display: block;
     text-align: center;
 }

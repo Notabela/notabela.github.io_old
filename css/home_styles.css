@@ -116,6 +116,7 @@ footer {
 footer ul{
     display: table;
     margin: 0 auto;
+    padding-left: 0;
 }
 
 footer li {
@@ -138,7 +139,6 @@ footer img:hover {
 }
 
 footer p {
-    padding-left: 2%;
     margin-top: 0.2%;
     font-size: 120%;
     display: block;
