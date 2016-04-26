@@ -107,6 +107,7 @@ section a:visited {
 
 #photo {
     padding-top: 1em;
+    padding-right: 2em;
     width: 20%;
     float: left;
     margin-left: 10%;
@@ -130,8 +131,7 @@ section a:visited {
     width: 60%;
 }
 
-#resume
-{
+#resume {
     width: 100%;
     text-align: center;
 }
