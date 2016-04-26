@@ -1,0 +1,211 @@
+/*
+    CSS styling for Contact_Page
+*/
+
+nav, header, section, footer {
+    display: block;
+}
+
+/* BODY STYLES */
+body {
+    margin-top: 0px;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: #91485D;
+}
+
+body * {
+    list-style: none;
+}
+
+/* HEADER STYLES */
+header {
+    margin:0 auto;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-top: 0px
+}
+
+header h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1%;
+}
+
+/* NAVIGATION STYLES */
+nav ul {
+    display: table;
+    margin: 2% auto;
+    font-size: 120%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-align: center;
+    text-decoration:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgba(105,105,105, 0.5);
+}
+
+nav ul li a:hover {
+    color: #000000;
+    border-bottom-style: ridge;
+    border-bottom-width: 1px;
+}
+
+nav ul li a.active {
+    color: #000000;
+    border-bottom-style: ridge;
+    border-bottom-width: 1px;
+    color: black;
+}
+
+section {
+    width: 90%;
+    margin-left: 5%;
+}
+
+section h2 {
+    padding-left: 1%;
+}
+
+form fieldset{
+    border: 0;
+}
+
+input, textarea {
+    margin-top: 0.5%;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #272727;
+    border: 0 none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 5px;
+    width:7em;
+    height: 3em;
+    display: inline;
+}
+
+input[type="submit"]:hover {
+    background-color: #707070;
+}
+
+textarea, input[type="text"], input[type="email"] {
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    background-color: #fafafa;
+    border-radius: 2px;
+    transition: box-shadow 0.3s, border 0.3s;
+    width: 100%;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus {
+    border: solid 1px background-color: #707070;;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+textarea:valid, input[type="text"]:valid, input[type="email"]:valid {
+    border: solid 1px background-color: #28921f;;
+    box-shadow: 0 0 5px 1px #5cd053;
+}
+
+.submit {
+    text-align: right;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    min-height: 10em;
+    resize: vertical;
+    cursor: auto;
+    flex-direction: column;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: start;
+    display: inline-block;
+    -webkit-user-select: text;
+    -webkit-rtl-ordering: logical;
+    -webkit-appearance: textarea;
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+
+/* SPACER STYLES */
+.or-spacer-bottom {
+    margin: 3% auto;
+    width:80%;
+    margin-bottom: 0px;
+    position:relative;
+}
+.or-spacer-bottom .mask {
+    overflow:hidden;
+    height:20px;
+}
+.or-spacer-bottom .mask:after {
+    content:'';
+    display:block;
+    margin:-25px auto 0;
+    width:100%;
+    height:25px;
+    border-radius:125px / 12px;
+    box-shadow:0 0 8px black;
+}
+
+/*FOOTER STYLES */
+
+footer {
+    width: 100%;
+}
+
+footer ul{
+    display: table;
+    margin: 0 auto;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    text-align: center;
+    padding-right: 2px;
+}
+
+footer img {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+footer img:hover {
+    -ms-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+footer p {
+    padding-left: 2%;
+    margin-top: 0.2%;
+    font-size: 100%;
+    display: block;
+    text-align: center;
+}
