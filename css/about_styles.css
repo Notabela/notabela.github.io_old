@@ -125,7 +125,7 @@ section a:visited {
     font-family: 'Open Sans';
     font-size: 80%;
     text-align left;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     margin-right: 10%;
     float: left;
     width: 60%;
@@ -133,12 +133,14 @@ section a:visited {
 
 #resume {
     width: 100%;
+    font-size: 2em;
     text-align: center;
+    font-family: ruthie;
 }
 
 /* SPACER STYLES */
 .or-spacer-bottom {
-    margin: 3% auto;
+    margin: 1% auto;
     width:80%;
     margin-bottom: 0px;
     position:relative;

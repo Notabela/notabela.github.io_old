@@ -109,6 +109,14 @@ figure img:hover{
     filter: opacity(80%);
 }
 
+figcaption {
+    margin-top: 3px;
+    font-family: fredericka-the-great, ribeye-marrow, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-size: 1em;
+}
+
 /* SPACER STYLES */
 .or-spacer-bottom {
     margin: 3% auto;
